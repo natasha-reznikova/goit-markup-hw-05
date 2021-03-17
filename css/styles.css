@@ -540,7 +540,7 @@ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);  */
   margin-left: 30px;
 }
 
-.clients-item-link {
+  .clients-item-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -549,13 +549,13 @@ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);  */
   fill: var(--net-color);
   border: 1px solid var(--net-color);
   border-radius: 4px;
-  transition-property: fill, border;
+   transition-property: border, fill;
   transition-duration: 250ms;
-  transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover,
-.clients-item-link:focus, {
+.clients-item-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -563,7 +563,6 @@ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);  */
 .clients-item-link:focus .clients-item-icon {
   fill: var(--accent-color);
 }
-
 /*             footer             */
 
 .footer {
